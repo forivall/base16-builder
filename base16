@@ -150,7 +150,7 @@ class Theme
   end
 
   def rgb_to_hex(rgb)
-    rgb.map {|color| color.to_s(16)}.join
+    "%02x%02x%02x" % rgb
   end
 
   def to_hex_bgr(hex)
