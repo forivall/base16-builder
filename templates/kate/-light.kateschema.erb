@@ -3495,31 +3495,32 @@ Javadoc:JavadocFS=21,ff<%= rgb_to_hex(mix(@base["0B"]["rgb"], @base["03"]["rgb"]
 Javadoc:JavadocParam=1,ff<%= rgb_to_hex(mix(@base["0A"]["rgb"], @base["03"]["rgb"], 40)) %>,ff<%= rgb_to_hex(mix(@base["0A"]["rgb"], @base["03"]["rgb"], 40)) %>,0,1,,,,,,---
 Javadoc:Normal Text=0,,,,,,,,,,---
 Javadoc:SeeTag=1,ff<%= rgb_to_hex(mix(@base["0A"]["rgb"], @base["03"]["rgb"], 40)) %>,ff<%= rgb_to_hex(mix(@base["0A"]["rgb"], @base["03"]["rgb"], 40)) %>,0,1,,,,,,---
-Jira:Aqua=0,ff00ffff,,,,,,,,,---
+Jira:Aqua=0,ff7fdbff,ff7fdbff,,,,,ffffffff,ffffffff,,---
 Jira:AttributeKeyword=29,,,,,,,,,,---
 Jira:AttributeValue=17,,,,,,,,,,---
-Jira:Blue=0,ff0000ff,,,,,,,,,---
+Jira:Blue=0,ff0074d9,ff0074d9,,,,,ffffffff,ffffffff,,---
 Jira:Bold=0,,,1,,,,,,,---
 Jira:EscapeSequence=10,,,,,,,,,,---
-Jira:Fuchsia=0,ffff00ff,,,,,,,,,---
-Jira:Gray=0,ff808080,,,,,,,,,---
-Jira:Green=0,ff008000,,,,,,,,,---
+Jira:Fuchsia=0,fff012be,fff012be,,,,,ffffffff,ffffffff,,---
+Jira:Gray=0,ffaaaaaa,ffaaaaaa,,,,,ffffffff,ffffffff,,---
+Jira:Green=0,ff2ecc40,ff2ecc40,,,,,ffffffff,ffffffff,,---
 Jira:Header=1,,,,,,,,,,---
 Jira:Italic=0,,,,1,,,,,,---
 Jira:Keyword=1,,,,,,,,,,---
-Jira:Lime=0,ff00ff00,,,,,,,,,---
-Jira:Maroon=0,ff800000,,,,,,,,,---
-Jira:Navy=0,ff000080,,,,,,,,,---
+Jira:Lime=0,ff01ff70,ff01ff70,,,,,ffffffff,ffffffff,,---
+Jira:Maroon=0,ff85144b,ff85144b,,,,,ffffffff,ffffffff,,---
+Jira:Navy=0,ff<%= rgb_to_hex(tint(to_rgb("001f3f"), 10)) %>,ff<%= rgb_to_hex(tint(to_rgb("001f3f"), 10)) %>,,,,,ffffffff,ffffffff,,---
 Jira:Normal=0,,,,,,,,,,---
-Jira:Olive=0,ff<%= rgb_to_hex(mix(@base["0B"]["rgb"], @base["0E"]["rgb"])) %>,ff<%= rgb_to_hex(mix(@base["0B"]["rgb"], @base["0E"]["rgb"])) %>,,,,,,,,---
-Jira:Purple=0,ff<%= rgb_to_hex(mix(@base["0B"]["rgb"], @base["0E"]["rgb"], 35)) %>,ff<%= rgb_to_hex(mix(@base["0B"]["rgb"], @base["0E"]["rgb"], 35)) %>,,,,,,,,---
-Jira:Red=0,ffff0000,,,,,,,,,---
-Jira:Silver=0,ffc0c0c0,,,,,,,,,---
+Jira:Olive=0,ff3d9970,ff3d9970,,,,,ffffffff,ffffffff,,---
+Jira:Purple=0,ffb10dc9,ffb10dc9,,,,,ffffffff,ffffffff,,---
+Jira:Red=0,ffff4136,ffff4136,,,,,ffffffff,ffffffff,,---
+Jira:Silver=0,ffdddddd,ffdddddd,,,,,ffffffff,ffffffff,,---
+Alerts:Alert Level 1=28,,,,,,,ffffffff,ffffffff,,---
 Jira:Special Character=17,,,1,,,,,,,---
 Jira:Stroked Out=0,,,,,1,,,,,---
-Jira:Teal=0,ff008080,,,,,,,,,---
+Jira:Teal=0,ff008080,ff008080,,,,,ffffffff,ffffffff,,---
 Jira:Underlined=0,,,,,,,,,,---
-Jira:Yellow=0,ffffff00,,,,,,,,,---
+Jira:Yellow=0,ffffdc00,ffffdc00,,,,,ffffffff,ffffffff,,---
 Modelines:Comment=21,,,,,,,,,,---
 Modelines:Keyword=1,,,,,,,,,,---
 Modelines:Number=17,,,,,,,,,,---
@@ -3868,16 +3869,16 @@ Kconfig:unquotedPrompt=0,,,,,,,,,,---
 Kconfig:unquotedSourceString=12,,,,,,,,,,---
 
 [Highlighting LDIF - Schema <%= @scheme %> Light]
-LDIF:AttributeType=1,ff404040,ffffffff,1,0,,,,,,---
+LDIF:AttributeType=16,,,1,0,,,,,,---
 LDIF:Comment=21,,,0,0,,,,,,---
-LDIF:Description Keyword=1,ff000000,ffffffff,1,0,,,,,,---
-LDIF:Normal Text=0,ff000000,ffffffff,0,0,,,,,,---
-LDIF:ObjectClass=1,ff<%= rgb_to_hex(mix(@base["0B"]["rgb"], @base["0E"]["rgb"], 35)) %>,ff<%= rgb_to_hex(mix(@base["0B"]["rgb"], @base["0E"]["rgb"], 35)) %>,1,0,,,,,,---
-LDIF:Value (Encoded)=12,ffff8000,ff0080ff,0,0,,,,,,---
-LDIF:Value (Encrypted)=12,ffff0000,ff00ffff,0,0,,,,,,---
-LDIF:Value (Keyword)=12,ff008000,ff<%= rgb_to_hex(mix(@base["0B"]["rgb"], @base["0E"]["rgb"], 35)) %>,1,0,,,,,,---
-LDIF:Value (Standard)=12,ff008000,ff008000,0,0,,,,,,---
-LDIF:Value (URL)=12,ff0000ff,ffffff00,0,0,,,,,,---
+LDIF:Description Keyword=14,,,1,0,,,,,,---
+LDIF:Normal Text=0,,,0,0,,,,,,---
+LDIF:ObjectClass=6,,1,0,,,,,,---
+LDIF:Value (Encoded)=12,ff<%= rgb_to_hex(mix(@base["09"]["rgb"], @base["0A"]["rgb"], 20)) %>,ff<%= rgb_to_hex(mix(@base["09"]["rgb"], @base["0A"]["rgb"], 20)) %>,0,0,,,,,,---
+LDIF:Value (Encrypted)=12,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50)) %>,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50)) %>,0,0,,,,,,---
+LDIF:Value (Keyword)=12,ff<%= rgb_to_hex(mix(@base["0C"]["rgb"], @base["0E"]["rgb"], 50)) %>,ff<%= rgb_to_hex(mix(@base["0C"]["rgb"], @base["0E"]["rgb"], 50)) %>,1,0,,,,,,---
+LDIF:Value (Standard)=12,,,0,0,,,,,,---
+LDIF:Value (URL)=12,ff<%= rgb_to_hex(mix(@base["0A"]["rgb"], @base["0B"]["rgb"], 50)) %>,f<%= rgb_to_hex(mix(@base["0A"]["rgb"], @base["0B"]["rgb"], 50)) %>,0,0,,,,,,---
 
 [Highlighting LESSCSS - Schema <%= @scheme %> Light]
 Alerts:Alert Level 1=28,ff<%= rgb_to_hex(hsl_to_rgb(saturate(rgb_to_hsl(tint(@base["08"]["rgb"], 10)), 15))) %>,ff<%= rgb_to_hex(hsl_to_rgb(saturate(rgb_to_hsl(tint(@base["08"]["rgb"], 10)), 15))) %>,,,,,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["02"]["rgb"], 10)) %>,,,---
@@ -4540,7 +4541,7 @@ Markdown:h5=2,,,1,,,,,,,---
 Markdown:h6=2,,,1,,,,,,,---
 Markdown:inlineimage=28,,,0,0,,,,,,---
 Markdown:inlinelink=29,,,,,,,,,,---
-Markdown:linebreak=0,ff<%= @base["04"]["hex"] %>,,,,,,,,,---
+Markdown:linebreak=0,ff<%= @base["04"]["hex"] %>,ff<%= @base["04"]["hex"] %>,,,,,,,,---
 Markdown:mailtolink=29,,,,,,,,,,---
 Markdown:meta=21,,,,,,,,,,---
 Markdown:nl-emphasis=19,,,,1,,,,,,---
@@ -4728,7 +4729,7 @@ Modelines:Variable=2,,,,,,,,,,---
 
 [Highlighting Metapost/Metafont - Schema <%= @scheme %> Light]
 Metapost/Metafont:Alert=28,,,,,,,,,,---
-Metapost/Metafont:BoolExp=1,ffaa00aa,ffffff00,0,1,,,,,,---
+Metapost/Metafont:BoolExp=1,,,0,1,,,,,,---
 Metapost/Metafont:Comment=21,,,,,,,,,,---
 Metapost/Metafont:Conditional=1,,,,,,,,,,---
 Metapost/Metafont:Decimal=17,,,,,,,,,,---
@@ -4736,20 +4737,20 @@ Metapost/Metafont:Error=28,,,,,,,,,,---
 Metapost/Metafont:Float=19,,,,,,,,,,---
 Metapost/Metafont:Hex=18,,,,,,,,,,---
 Metapost/Metafont:Identifier=1,,,,,,,,,,---
-Metapost/Metafont:Keyword=0,ff800000,ff60ffff,0,0,,,,,,---
-Metapost/Metafont:Keyword Mathmode=0,ff606000,ffffd0ff,0,0,,,,,,---
-Metapost/Metafont:Macro=1,ff770000,ff99ffff,0,0,,,,,,---
-Metapost/Metafont:Math=0,ff00a000,ffff40ff,0,0,,,,,,---
+Metapost/Metafont:Keyword=1,,,0,0,,,,,,---
+Metapost/Metafont:Keyword Mathmode=6,,,0,0,,,,,,---
+Metapost/Metafont:Macro=2,,,0,0,,,,,,---
+Metapost/Metafont:Math=0,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50)) %>,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50)) %>,0,0,,,,,,---
 Metapost/Metafont:Normal Text=0,,,,,,,,,,---
 Metapost/Metafont:NumExp=2,,,,,,,,,,---
 Metapost/Metafont:Octal=18,,,,,,,,,,---
-Metapost/Metafont:Operator=1,ff244cff,,0,,,,,,,---
-Metapost/Metafont:Special=1,ff008000,,0,,,,,,,---
-Metapost/Metafont:Statement=0,ff0000ff,ffffff00,0,0,,,,,,---
+Metapost/Metafont:Operator=5,,,0,,,,,,,---
+Metapost/Metafont:Special=3,,,0,,,,,,,---
+Metapost/Metafont:Statement=0,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["09"]["rgb"], 50)) %>,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["09"]["rgb"], 50)) %>,0,0,,,,,,---
 Metapost/Metafont:String=12,,,,,,,,,,---
 Metapost/Metafont:TeX=0,,,,,,,,,,---
 Metapost/Metafont:Type=16,,,,,,,,,,---
-Metapost/Metafont:Variable=1,ff550022,,,,,,,,,---
+Metapost/Metafont:Variable=0,ff<%= rgb_to_hex(shade(@base["08"]["rgb"], 10)) %>,ff<%= rgb_to_hex(shade(@base["08"]["rgb"], 10)) %>,,,,,,,,---
 
 [Highlighting Modelica - Schema <%= @scheme %> Light]
 Alerts:Alert Level 1=28,ff<%= rgb_to_hex(hsl_to_rgb(saturate(rgb_to_hsl(tint(@base["08"]["rgb"], 10)), 15))) %>,ff<%= rgb_to_hex(hsl_to_rgb(saturate(rgb_to_hsl(tint(@base["08"]["rgb"], 10)), 15))) %>,,,,,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["02"]["rgb"], 10)) %>,,,---
@@ -4844,26 +4845,26 @@ Alerts:Alert Level 2=28,ff<%= rgb_to_hex(hsl_to_rgb(saturate(rgb_to_hsl(tint(@ba
 Alerts:Alert Level 3=28,ff<%= rgb_to_hex(hsl_to_rgb(saturate(rgb_to_hsl(tint(@base["0B"]["rgb"], 10)), 15))) %>,ff<%= rgb_to_hex(hsl_to_rgb(saturate(rgb_to_hsl(tint(@base["0B"]["rgb"], 10)), 15))) %>,,,,,,,,---
 Alerts:Normal Text=0,,,,,,,,,,---
 Alerts:Region Marker=25,,,,,,,,,,---
-Music Publisher:Barline=17,ffcc6622,,,,,,,,,---
+Music Publisher:Barline=17,ff<%= rgb_to_hex(mix(@base["0E"]["rgb"], @base["03"]["rgb"], 40)) %>,ff<%= rgb_to_hex(mix(@base["0E"]["rgb"], @base["03"]["rgb"], 40)) %>,,,,,,,,---
 Music Publisher:Comment=21,,,,,,,,,,---
 Music Publisher:Context=1,,,,,,,,,,---
-Music Publisher:Error=30,ff000000,,,,,,,,,---
-Music Publisher:Location=1,ff00cc44,,1,,,,,,,---
-Music Publisher:Location Probably=1,ff00cc44,,0,,,,,,,---
+Music Publisher:Error=30,,,,,,,,,,---
+Music Publisher:Location=5,,,1,,,,,,,---
+Music Publisher:Location Probably=5,,,0,,,,,,,---
 Music Publisher:Lyrics=18,,,1,,,,,,,---
-Music Publisher:Macro=29,ff1111ff,ff11ffff,,,,,,,,---
-Music Publisher:Newscore=17,ffcc6622,,1,,,,,,,---
+Music Publisher:Macro=2,,,,,,,,,,---
+Music Publisher:Newscore=17,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["09"]["rgb"], 50)) %>,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["09"]["rgb"], 50)) %>,1,,,,,,,---
 Music Publisher:Normal Text=0,,,,,,,,,,---
 Music Publisher:Note=0,,,,,,,,,,---
-Music Publisher:Note Attribute=0,ff0077bb,,,1,,,,,,---
+Music Publisher:Note Attribute=9,,,,1,,,,,,---
 Music Publisher:Parameter=10,,,,,,,,,,---
 Music Publisher:Print Command=18,,,,,,,,,,---
 Music Publisher:Special Char=1,,,,,,,,,,---
 Music Publisher:String=12,,,,,,,,,,---
 Music Publisher:String Error=30,,,,,,,,,,---
-Music Publisher:String Lyrics=12,ff880000,,,,,,,,,---
+Music Publisher:String Lyrics=22,,,,,,,,,,---
 Music Publisher:String Special=12,,,1,,,,,,,---
-Music Publisher:Tuplet=0,ff003355,,,,,,,,,---
+Music Publisher:Tuplet=7,,,,,,,,,,---
 Music Publisher:Unset Command=19,,,1,,,,,,,---
 Music Publisher:Value=19,,,,,,,,,,---
 
@@ -5109,19 +5110,19 @@ Objective-C++:String Char=10,,,,,,,,,,---
 Objective-C++:Symbol=0,,,,,,,,,,---
 
 [Highlighting Octave - Schema <%= @scheme %> Light]
-Octave:Builtin=18,ffb28c00,,,,,,,,,---
-Octave:Commands=2,ffb28c00,,,,,,,,,---
+Octave:Builtin=6,,,,,,,,,,---
+Octave:Commands=2,,,,,,,,,,---
 Octave:Comment=21,,,,,,,,,,---
 Octave:Delimiter=0,,,,,,,,,,---
-Octave:Forge=2,ff000099,ff009900,1,1,,,,,,---
-Octave:Functions=2,ff0000ff,ff00ff00,1,1,,,,,,---
-Octave:Incomplete String=10,ffa020f0,,,,,,,,,---
-Octave:Keyword=0,ff0000ff,,,,,,,,,---
+Octave:Forge=2,ff<%= @base["08"]["hex"] %>,ff<%= @base["08"]["hex"] %>,1,1,,,,,,---
+Octave:Functions=2,,,1,1,,,,,,---
+Octave:Incomplete String=10,ff<%= rgb_to_hex(mix(@base["0B"]["rgb"], @base["08"]["rgb"], 30)) %>,,,,,,,,,---
+Octave:Keyword=1,,,,,,,,,,---
 Octave:Normal Text=0,,,,,,,,,,---
 Octave:Number=19,,,,,,,,,,---
-Octave:Operator=0,,,,,,,,,,---
-Octave:String=12,ffb20000,,,,,,,,,---
-Octave:String Char=10,,,,,,,,,,---
+Octave:Operator=5,,,,,,,,,,---
+Octave:String=12,,,,,,,,,,---
+Octave:String Char=10,ff<%= rgb_to_hex(mix(@base["0A"]["rgb"], @base["0B"]["rgb"], 50)) %>,ff<%= rgb_to_hex(mix(@base["0A"]["rgb"], @base["0B"]["rgb"], 50)) %>,,,,,,,,---
 Octave:Variable=0,,,,,,,,,,---
 
 [Highlighting OpenCL - Schema <%= @scheme %> Light]
@@ -5480,27 +5481,27 @@ SQL (MySQL):String Char=10,,,,,,,,,,---
 SQL (MySQL):Symbol=10,,,,,,,,,,---
 
 [Highlighting POV-Ray - Schema <%= @scheme %> Light]
-POV-Ray:Char=10,ff000080,ffffffff,0,0,,,,,,---
+POV-Ray:Char=10,ff<%= rgb_to_hex(mix(@base["0A"]["rgb"], @base["0B"]["rgb"], 50)) %>,ff<%= rgb_to_hex(mix(@base["0A"]["rgb"], @base["0B"]["rgb"], 50)) %>,0,0,,,,,,---
 POV-Ray:Comment=21,,,0,0,,,,,,---
-POV-Ray:Constant=19,ff0000ff,ffffffff,0,0,,,,,,---
-POV-Ray:Declaration=1,ff000080,ff000080,1,0,,,,,,---
-POV-Ray:Declare Keyword=1,ff990099,ff990099,1,0,,,,,,---
-POV-Ray:Declare Macro=1,ffcc0000,ff990099,1,0,,,,,,---
-POV-Ray:Directives=29,ff3300ff,ff3300ff,1,0,,,,,,---
-POV-Ray:Filetype=16,ff000080,ffffffff,0,0,,,,,,---
-POV-Ray:Float=19,ff0000ff,ffffffff,0,0,,,,,,---
-POV-Ray:Functions=1,ff000080,ffffffff,0,0,,,,,,---
-POV-Ray:Keyword=1,ff000080,ffffffff,0,0,,,,,,---
-POV-Ray:Macro=1,ff000080,ff000080,1,0,,,,,,---
-POV-Ray:Normal Text=0,ff000000,ffffffff,0,0,,,,,,---
-POV-Ray:Objects=1,ff800000,ffffffff,0,0,,,,,,---
+POV-Ray:Constant=20,ff<%= @base["02"]["hex"] %>,ff<%= @base["02"]["hex"] %>,0,0,,,,,,---
+POV-Ray:Declaration=8,,,1,0,,,,,,---
+POV-Ray:Declare Keyword=1,,,1,0,,,,,,---
+POV-Ray:Declare Macro=6,,,1,0,,,,,,---
+POV-Ray:Directives=4,,,1,0,,,,,,---
+POV-Ray:Filetype=16,ff<%= rgb_to_hex(mix(@base["0B"]["rgb"], @base["0C"]["rgb"], 80)) %>,ff<%= rgb_to_hex(mix(@base["0B"]["rgb"], @base["0C"]["rgb"], 80)) %>,0,0,,,,,,---
+POV-Ray:Float=19,,,0,0,,,,,,---
+POV-Ray:Functions=2,,,0,0,,,,,,---
+POV-Ray:Keyword=1,,,0,0,,,,,,---
+POV-Ray:Macro=6,,,1,0,,,,,,---
+POV-Ray:Normal Text=0,,,0,0,,,,,,---
+POV-Ray:Objects=3,,,0,0,,,,,,---
 POV-Ray:Region Marker=25,,,,,,,,,,---
-POV-Ray:String=12,ffff0000,ffff0000,0,0,,,,,,---
-POV-Ray:String Char=10,ffff00ff,ffff00ff,0,0,,,,,,---
-POV-Ray:Symbol=0,ff660099,ff660099,0,0,,,,,,---
-POV-Ray:Texturing=1,ff000080,ffffffff,0,0,,,,,,---
-POV-Ray:Transforms=1,ff000080,ffffffff,0,0,,,,,,---
-POV-Ray:Unofficial=1,ff0080d0,ffffffff,0,0,,,,,,---
+POV-Ray:String=12,,,0,0,,,,,,---
+POV-Ray:String Char=10,ff<%= rgb_to_hex(mix(@base["0A"]["rgb"], @base["0B"]["rgb"], 50)) %>,ff<%= rgb_to_hex(mix(@base["0A"]["rgb"], @base["0B"]["rgb"], 50)) %>,0,0,,,,,,---
+POV-Ray:Symbol=5,,,0,0,,,,,,---
+POV-Ray:Texturing=1,ff<%= rgb_to_hex(mix(@base["09"]["rgb"], @base["0A"]["rgb"], 30)) %>,ff<%= rgb_to_hex(mix(@base["09"]["rgb"], @base["0A"]["rgb"], 30)) %>,0,0,,,,,,---
+POV-Ray:Transforms=1,ff<%= rgb_to_hex(mix(@base["09"]["rgb"], @base["0A"]["rgb"], 70)) %>,ff<%= rgb_to_hex(mix(@base["09"]["rgb"], @base["0A"]["rgb"], 70)) %>,0,0,,,,,,---
+POV-Ray:Unofficial=29,,,0,0,,,,,,---
 
 [Highlighting Pango - Schema <%= @scheme %> Light]
 Pango:Color=19,,,,,,,,,,---
@@ -5560,14 +5561,14 @@ PicAsm:Char=10,,,,,,,,,,---
 PicAsm:Comment=21,,,,,,,,,,---
 PicAsm:Directives=29,,,,,,,,,,---
 PicAsm:Error=30,,,,,,,,,,---
-PicAsm:GPASM-macros=0,ff000000,ff000000,1,1,,,,,,---
-PicAsm:InstructionAttr=0,ff000080,ff000080,0,1,,,,,,---
+PicAsm:GPASM-macros=0,ff<%= rgb_to_hex(shade(@base["0F"]["rgb"], 40)) %>,ff<%= rgb_to_hex(shade(@base["0F"]["rgb"], 40)) %>,1,1,,,,,,---
+PicAsm:InstructionAttr=9,,,0,1,,,,,,---
 PicAsm:Instructions=1,,,,,,,,,,---
 PicAsm:Normal Text=0,,,,,,,,,,---
 PicAsm:Prep. Lib=29,,,,,,,,,,---
 PicAsm:Preprocessor=29,,,,,,,,,,---
 PicAsm:String=12,,,,,,,,,,---
-PicAsm:Symbol=0,ffff0000,ff083194,0,0,,,,,,---
+PicAsm:Symbol=5,,,0,0,,,,,,---
 PicAsm:Unbased Numbers=17,,,,,,,,,,---
 
 [Highlighting Pig - Schema <%= @scheme %> Light]
@@ -5579,15 +5580,15 @@ Alerts:Region Marker=25,,,,,,,,,,---
 Alerts_indent:Normal Text=0,,,,,,,,,,---
 Pig:Comment=21,,,,,,,,,,---
 Pig:Float=19,,,,,,,,,,---
-Pig:Function=16,,,1,,,,,,,---
-Pig:Grunt=29,ffba8200,ffffffff,1,0,,,,,,---
+Pig:Function=2,,,1,,,,,,,---
+Pig:Grunt=6,,,1,0,,,,,,---
 Pig:Hex=18,,,,,,,,,,---
 Pig:Int=17,,,,,,,,,,---
 Pig:Keyword=1,,,,,,,,,,---
 Pig:Normal Text=0,,,,,,,,,,---
 Pig:Octal=18,,,,,,,,,,---
-Pig:Operator=0,,,1,,,,,,,---
-Pig:Parameter=29,ff25a000,ffffffff,,,,,,,,---
+Pig:Operator=5,,,1,,,,,,,---
+Pig:Parameter=9,,,,,,,,,,---
 Pig:Statement=29,,,1,,,,,,,---
 Pig:String=12,,,,,,,,,,---
 Pig:Type=16,,,,,,,,,,---
@@ -6629,25 +6630,25 @@ Scheme:Region Marker=25,,,,,,,,,,---
 Scheme:String=12,,,,,,,,,,---
 
 [Highlighting SiSU - Schema <%= @scheme %> Light]
-SiSU:Bold=0,ff800000,ff60ffff,1,0,,,,,,---
-SiSU:Break=0,ffff0000,ff60ffff,0,0,,,,,,---
+SiSU:Bold=0,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,1,0,,,,,,---
+SiSU:Break=0,ff<%= @base["04"]["hex"] %>,ff<%= @base["04"]["hex"] %>,0,0,,,,,,---
 SiSU:Comment=21,,,,,,,,,,---
-SiSU:Endnote=0,ff086800,ff60ffff,0,0,,,,,,---
+SiSU:Endnote=26,,,0,0,,,,,,---
 SiSU:Group=25,,,,,,,,,,---
-SiSU:Header=0,ff1c869b,ff60ffff,0,0,,,,,,---
-SiSU:Heading=0,ffff0000,ff60ffff,1,0,,,,,,---
-SiSU:Indent=0,fff00000,ff80ffd0,0,0,,,,,,---
-SiSU:Insert=0,fff00000,ff80ffd0,0,0,,,,,,---
-SiSU:Italic=0,ff800000,ff60ffff,0,1,,,,,,---
+SiSU:Header=24,,,0,0,,,,,,---
+SiSU:Heading=0,ff<%= @base["09"]["hex"] %>,ff<%= @base["09"]["hex"] %>,1,0,,,,,,---
+SiSU:Indent=5,,,0,0,,,,,,---
+SiSU:Insert=11,ff<%= @base["0B"]["hex"] %>,ff<%= @base["0B"]["hex"] %>,0,0,,,,,,---
+SiSU:Italic=0,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,0,1,,,,,,---
 SiSU:Keyword=1,,,,,,,,,,---
-SiSU:Link=0,ff0000ff,ff60ffff,0,0,,,,,,---
+SiSU:Link=0,ff<%= @base["0D"]["hex"] %>,ff<%= @base["0D"]["hex"] %>,0,0,,,,,,---
 SiSU:Normal Text=0,,,,,,,,,,---
-SiSU:Strike=0,fff00000,ff80ffd0,0,0,,,,,,---
+SiSU:Strike=0,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,0,0,1,,,,,---
 SiSU:String=12,,,,,,,,,,---
-SiSU:Structure=0,fff00000,ff80ffd0,0,0,,,,,,---
-SiSU:Subscript=0,fff00000,ff80ffd0,0,0,,,,,,---
-SiSU:Superscript=0,fff00000,ff80ffd0,0,0,,,,,,---
-SiSU:Underscore=0,fff00000,ff80ffd0,0,0,,,,,,---
+SiSU:Structure=0,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,0,0,,,,,,---
+SiSU:Subscript=0,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,0,0,,,,,,---
+SiSU:Superscript=0,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,0,0,,,,,,---
+SiSU:Underscore=0,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,ff<%= rgb_to_hex(shade(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50), 20)) %>,0,0,,,,,,---
 
 [Highlighting Sieve - Schema <%= @scheme %> Light]
 Sieve:Comment=21,,,,,,,,,,---
@@ -8336,25 +8337,25 @@ sed:Step=17,,,,,,,,,,---
 sed:Wrap Length=17,,,,,,,,,,---
 
 [Highlighting txt2tags - Schema <%= @scheme %> Light]
-txt2tags:Bar=0,ffc0c0c0,,,,,,,,,---
-txt2tags:Bold=0,ff445675,,1,,,,,,,---
+txt2tags:Bar=0,ff<%= @base["03"]["hex"] %>,ff<%= @base["03"]["hex"] %>,,,,,,,,---
+txt2tags:Bold=0,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50)) %>,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50)) %>,1,,,,,,,---
 txt2tags:BoldItalic=0,,,1,1,,,,,,---
 txt2tags:Comment=0,ff<%= @base["03"]["hex"] %>,ff<%= @base["03"]["hex"] %>,,1,,,,,,---
-txt2tags:Date=0,ffff0000,,,1,,,,,,---
-txt2tags:DefList=0,ffe300ee,,,,,,,,,---
-txt2tags:Italic=0,ff653a39,,,1,,,,,,---
-txt2tags:Link=0,ff0930de,,,,,,,,,---
-txt2tags:List=0,ffe300ee,,,,,,,,,---
-txt2tags:Monospaced=0,ff006600,,,,,,,,,---
+txt2tags:Date=0,ff<%= @base["0C"]["hex"] %>,,,1,,,,,,---
+txt2tags:DefList=0,ff<%= @base["09"]["hex"] %>,ff<%= @base["09"]["hex"] %>,,,,,,,,---
+txt2tags:Italic=0,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50)) %>,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50)) %>,,1,,,,,,---
+txt2tags:Link=0,ff<%= @base["0D"]["hex"] %>,ff<%= @base["0D"]["hex"] %>,,,,,,,,---
+txt2tags:List=0,ff<%= @base["09"]["hex"] %>,ff<%= @base["09"]["hex"] %>,,,,,,,,---
+txt2tags:Monospaced=0,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50)) %>,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50)) %>,,,,,,,,---
 txt2tags:Normal=0,,,,,,,,,,---
-txt2tags:NumList=0,ffe300ee,,,,,,,,,---
-txt2tags:Quote=0,ffa52a2a,,,,,,,,,---
-txt2tags:Strikeout=0,ff644a9b,,,,1,,,,,---
-txt2tags:Tabel=0,ffff0000,,,,,,,,,---
-txt2tags:Title=0,ff990000,,,,,,,,,---
-txt2tags:Underline=0,ff386742,,,,,,,,,---
-txt2tags:Verbatim Area=0,ff006600,,,,,,,,,---
-txt2tags:Verbatim Line=0,ff006600,,,,,,,,,---
+txt2tags:NumList=0,ff<%= @base["09"]["hex"] %>,ff<%= @base["09"]["hex"] %>,,,,,,,,---
+txt2tags:Quote=0,ff<%= @base["0B"]["hex"] %>,ff<%= @base["0B"]["hex"] %>,,,,,,,,---
+txt2tags:Strikeout=0,ff<%= @base["09"]["hex"] %>,ff<%= @base["09"]["hex"] %>,,,1,,,,,---
+txt2tags:Tabel=0,ff<%= @base["0C"]["hex"] %>,,,,,,,,,---
+txt2tags:Title=0,ff<%= @base["0E"]["hex"] %>,ff<%= @base["0E"]["hex"] %>,,,,,,,,---
+txt2tags:Underline=0,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50)) %>,ff<%= rgb_to_hex(mix(@base["08"]["rgb"], @base["0E"]["rgb"], 50)) %>,,,,,,,,---
+txt2tags:Verbatim Area=0,ff<%= @base["0B"]["hex"] %>,ff<%= @base["0B"]["hex"] %>,,,,,,,,---
+txt2tags:Verbatim Line=0,ff<%= @base["0B"]["hex"] %>,ff<%= @base["0B"]["hex"] %>,,,,,,,,---
 
 [Highlighting vCard, vCalendar, iCalendar - Schema <%= @scheme %> Light]
 vCard, vCalendar, iCalendar:Assignment=1,,,,,,,,,,---
