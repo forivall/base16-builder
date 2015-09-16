@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<%
+def rgb_to_hex(rgb)
+  "%02x%02x%02x" % rgb
+end
+%><?xml version="1.0" encoding="UTF-8"?>
 <!--
   Name:
     Base16 <%= @scheme %> Light
@@ -36,6 +40,7 @@
   <color name="base05" value="#<%= @base["05"]["hex"] %>"/>
   <color name="base06" value="#<%= @base["06"]["hex"] %>"/>
   <color name="base07" value="#<%= @base["07"]["hex"] %>"/>
+  <color name="base0607" value="#<%= rgb_to_hex(mix(@base["06"]["rgb"], @base["07"]["rgb"])) %>"/>
   <color name="base08" value="#<%= @base["08"]["hex"] %>"/>
   <color name="base09" value="#<%= @base["09"]["hex"] %>"/>
   <color name="base0A" value="#<%= @base["0A"]["hex"] %>"/>
@@ -51,7 +56,7 @@
   <style name="css:at-rules" foreground="base0E"/>
   <style name="css:color" foreground="base02"/>
   <style name="css:keyword" foreground="base0A"/>
-  <style name="current-line" background="base06"/>
+  <style name="current-line" background="base0607"/>
   <style name="cursor" foreground="base04"/>
   <style name="def:base-n-integer" foreground="base09"/>
   <style name="def:boolean" foreground="base09"/>
